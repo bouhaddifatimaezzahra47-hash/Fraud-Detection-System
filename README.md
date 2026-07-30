@@ -1,1 +1,51 @@
-{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"provenance":[],"authorship_tag":"ABX9TyNwnBWmnSjWu/SwgAkn80zr"},"kernelspec":{"name":"python3","display_name":"Python 3"},"language_info":{"name":"python"}},"cells":[{"cell_type":"markdown","source":["# **Credit Card Fraud Detection Using Machine Learning**"],"metadata":{"id":"HwIsWVjD4sV_"}},{"cell_type":"markdown","source":["This personal project focuses on comparing three machine learning models for credit card fraud detection:\n","Logistic Regression, Random Forest, and Gradient Boosting .\n","It covers the complete workflow, from data preprocessing and model training to performance evaluation and feature\n","importance analysis.\n"," each part of this code demonstrates how to:\n","\n","*Explore data\n","\n","*Clean data (missing values & duplicated values)\n","\n","*Analyze data & study distribution of normal and fraudulent transactions\n","\n","*Separate the features & target variable\n","\n","*Analyze outliers & apply RobustScaler(after justification)\n","\n","*Split the data into training & testing sets\n","\n","*Balance the training data using BorderlineSMOTE\n","\n","*Tuning hyperparameters & training & determine the optimal classification threshold of the three machine learning models\n","\n","*Evaluate each model using Accuracy, Precision, Recall, F1-score,Confusion Matrix\n","\n","*Compare the performance of all models.\n","\n","*Select the best-performing model.\n","\n","*Use SHAP to identify the most important features.\n","\n","\n"],"metadata":{"id":"b0aGmZ564550"}},{"cell_type":"markdown","source":["# **Built with :**"],"metadata":{"id":"-Y1gFAJnDt24"}},{"cell_type":"markdown","source":["- programming language : Python\n","- Data manipulation and analysis : Pandas and Numpy\n","- Machine learning models and Evaluation : Scikit-learn\n","- Borderline-SMOTE :Imbalanced-learn\n","- Data visualization : Matplotlib\n","- Feature Importance : SHAP\n","- Model loading : Joblib\n","- Web interface: Gradio\n","\n"],"metadata":{"id":"0mBhDr3EDy0Y"}},{"cell_type":"markdown","source":["# **Dataset:**"],"metadata":{"id":"2df64Jnr5Ok0"}},{"cell_type":"markdown","source":["- Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud\n","- description of data:The dataset contains transactions made by credit cards in September 2013 by European cardholders.\n","                      This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807\n","                      transactions.The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all\n","                      transactions.\n","- Features: Time, Amount, V1...V28(the principal components obtained with PCA)\n","-Target : class=0--> normal\n","          class=1--> fraud"],"metadata":{"id":"0-wGQeUL5WJP"}}]}
+This personal project focuses on comparing three machine learning models for credit card fraud detection:
+Logistic Regression, Random Forest, and Gradient Boosting .
+It covers the complete workflow, from data preprocessing and model training to performance evaluation and feature
+importance analysis.
+ each part of this code demonstrates how to:
+
+- Explore data
+- Clean data (missing values & duplicated values)
+- Analyze data & study distribution of normal and fraudulent transactions
+- Separate the features & target variable
+- Analyze outliers & apply RobustScaler(after justification)
+- Split the data into training & testing sets
+- Balance the training data using BorderlineSMOTE
+- Tuning hyperparameters & training & determine the optimal classification threshold of the three machine learning models
+- Evaluate each model using Accuracy, Precision, Recall, F1-score,Confusion Matrix
+- Compare the performance of all models.
+- Select the best-performing model.
+- Use SHAP to identify the most important features.
+____________________________________________________
+Built with :
+
+- programming language : Python
+- Data manipulation and analysis : Pandas and Numpy
+- Machine learning models and Evaluation : Scikit-learn
+- Borderline-SMOTE :Imbalanced-learn
+- Data visualization : Matplotlib
+- Feature Importance : SHAP
+- Model loading : Joblib
+- Web interface: Gradio
+______________________________________________________
+Dataset:
+
+- Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+- description of data:The dataset contains transactions made by credit cards in September 2013 by European cardholders.
+                      This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807
+                      transactions.The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all
+                      transactions.
+- Features: Time, Amount, V1...V28(the principal components obtained with PCA)
+-Target : class=0--> normal
+          class=1--> fraud
+
+
+
+
+
+
+
+
+
+
+
