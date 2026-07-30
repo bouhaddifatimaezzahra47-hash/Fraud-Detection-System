@@ -16,6 +16,10 @@ importance analysis.
 - Compare the performance of all models.
 - Select the best-performing model.
 - Use SHAP to identify the most important features.
+___________________________________________________
+
+[fraud detection system.webm](https://github.com/user-attachments/assets/a23f6599-513c-4f1f-bf13-7fd6ab64dbf8)
+
 ____________________________________________________
 Built with :
 
